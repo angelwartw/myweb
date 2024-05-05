@@ -1,0 +1,824 @@
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta name="Description" content=""/>
+
+<title>NewSoftOA人資管理員工出缺勤的得力助手</title>
+
+<meta itemprop="name" content="NewSoftOA人資管理員工出缺勤的得力助手">
+<meta itemprop="description" content="">
+
+<meta property="og:title" content="NewSoftOA人資管理員工出缺勤的得力助手">
+<meta property="og:description" content="">
+
+<style type="text/css">
+#outlook a{
+	padding:0;
+}
+body{
+	width:100%!important;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+	margin:0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif, "Microsoft JhengHei", "微軟正黑體", "新細明體";
+	background-color: #ffffff;
+}
+.ExternalClass{
+	width:100%;
+}
+.ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{
+	line-height:100%;
+}
+#backgroundTable{
+	margin:0;
+	padding:0;
+	width:100%!important;
+	line-height:100%!important;
+}
+img{
+	outline:none;
+	text-decoration:none;
+	border:none;
+	-ms-interpolation-mode:bicubic;
+}
+a img{
+	border:none;
+}
+.image_fix{
+	display:block;
+}
+p{
+	margin:0px 0px!important;
+}
+table td{
+	border-collapse:collapse;
+}
+table{
+	border-collapse:collapse;
+	mso-table-lspace:0pt;
+	mso-table-rspace:0pt;
+}
+table[class="full"]{
+	width:100%;
+	clear:both;
+}
+.link A {
+	font-size: 13px;
+	font-weight: normal;
+	color: #ffffff;
+	text-decoration: none;
+}
+.link A:link {
+	text-decoration: none;
+	color: #ffffff;
+}
+.link A:visited {
+	text-decoration: none;
+	color: #ffffff;
+}
+.link A:hover {
+	text-decoration: underline;
+	color: #ffffff;
+}
+.link A:active {
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #87bea1;
+	text-decoration: none;
+	line-height: 24px;	/*line-height: 30px;*/
+	text-decoration-line: none;
+}
+h1 A {
+	color: #9fd400;
+	text-decoration: none;
+}
+h1 A:link {
+	color: #9fd400;
+	text-decoration: none;
+}
+h1 A:visited {
+	color: #9fd400;
+	text-decoration: none;
+}
+h1 A:hover {
+	color: #3598db;
+	text-decoration: none;
+}
+h1 A:active {
+	color: #9fd400;
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: bold;
+	color: #254784;
+	line-height: 32px;
+	/*padding-top: 2px;*/
+	/*padding-top: 5px;*/
+	padding-right: 0;
+	padding-bottom: 0;
+	/*padding-left: 15px;*/
+}
+h2 A {
+	color: #4f4f4f;
+	text-decoration: underline;
+}
+h2 A:link {
+	color: #4f4f4f;
+	text-decoration: underline;
+}
+h2 A:visited {
+	color: #4f4f4f;
+	text-decoration: underline;
+}
+h2 A:hover {
+	color: #4f4f4f;
+	text-decoration: none;
+}
+h2 A:active {
+	color: #4f4f4f;
+	text-decoration: underline;
+}
+
+.orange2 {
+	font-size: 20px;
+	font-weight: normal;
+	color: #FF4E00;
+	text-decoration: underline;
+	line-height: 20px;
+	padding-top: 2px;
+	/*padding-top: 5px;*/
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 2px;
+}
+.orange2 A {
+	color: #FF4E00;
+	text-decoration: underline;
+}
+.orange2 A:link {
+	color: #FF4E00;
+	text-decoration: underline;
+}
+.orange2 A:visited {
+	color: #FF4E00;
+	text-decoration: underline;
+}
+.orange2 A:hover {
+	color: #FF4E00;
+	text-decoration: none;
+}
+.orange2 A:active {
+	color: #FF4E00;
+	text-decoration: underline;
+}
+
+
+h3 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #254784;
+	text-decoration: none;
+	/*line-height: 30px;*/
+}
+	
+h4 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #254784;
+	text-decoration: none;
+	/*line-height: 20px;*/
+}
+
+.red {
+	font-weight: bold;
+	color: #DC0000;
+	text-decoration: none;
+}
+.underline {
+	text-decoration: none;
+	color: #555555;
+	background-color: #D20000;
+	}
+
+.button1 {
+	background-color: #c50000;
+	border-radius: 6px;
+	border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	} /* Red */
+	
+
+.button1 A {
+    background-color: #c50000;
+    color: white;
+}
+.button1 A:link {
+    background-color: #c50000;
+    color: white;
+}
+.button1 A:visited {
+    background-color: #c50000;
+    color: white;
+}
+.button1 A:hover {
+    background-color: #0079c5;
+    color: white;
+}
+.button1 A:active {
+    background-color: #c50000;
+    color: white;
+}
+	
+.bgd {
+	
+	background-image: url(http://www.newsoft.com.tw/epaper/newsoftoa/201807/images/bg_01.jpg) ;
+	background-repeat: no-repeat;
+	background-position : center center;
+	background-size: cover;
+		
+	}
+	
+.bgh {
+	
+	background-image: url(http://www.newsoft.com.tw/epaper/newsoftoa/201807/images/bg_header.jpg) ;
+	background-repeat: repeat-y;
+	background-position : right center;
+	background-size: cover;
+		
+	}
+    
+.bgcontact {
+    background-image: url('https://www.newsoft.com.tw/epaper/newsoftoa/202006/images/bg_01.jpg');
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-position : top center;
+	/*background-size: cover;*/
+    margin: 0;
+    padding: 0;
+}
+
+.div-gradient
+{
+background: linear-gradient(45deg, rgba(31, 78, 132, 1)48%, rgba(238, 238, 238, 0.8)0%);
+background: -moz-linear-gradient(45deg, rgba(31, 78, 132, 1)48%, rgba(238, 238, 238, 0.8)0%);
+background: -webkit-linear-gradient(45deg, rgba(31, 78, 132, 1)48%, rgba(238, 238, 238, 0.8)0%);
+background: -o-linear-gradient(45deg, rgba(31, 78, 132, 1)48%, rgba(238, 238, 238, 0.8)0%);
+}
+
+
+.ccle {
+  margin: 0px auto;/*div對齊效果*/
+  text-align: left;/*display: inline對齊效果*/
+}
+
+.ccle div {
+  display: inline-block;/*讓div並排*/ 
+  vertical-align: top;/*就算個個div行數不同，也一律向上對齊*/ 
+  /*width: 40%;*/
+  
+  margin: 2px;
+  padding: 6px 6px;
+  background-color: #254784;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  }
+    
+    
+    
+
+    
+    
+	
+@media only screen and (max-width:640px){
+/*@media only screen and (max-width:640px){*/
+a[href^="tel"],a[href^="sms"]{
+	text-decoration:none;color:#ffffff;pointer-events:none;cursor:default
+}
+.mobile_link a[href^="tel"],.mobile_link a[href^="sms"]{
+	text-decoration:default;color:#ffffff!important;pointer-events:auto;cursor:default
+}
+table[class="devicewidth"]{
+	width:100%!important;text-align:center!important
+	/*width:540px!important;text-align:center!important*/
+}
+table[class="devicewidthinner"]{
+	width:560px!important;text-align:center!important
+}
+table[class="sthide"]{
+	display:none!important
+}
+img[class="bigimage"]{
+	width:520px!important
+}
+img[class="col1img"]{
+	width:520px!important
+}
+img[class="col2img"]{
+	width:300px!important
+	/*width:480px!important*/
+}
+img[class="col3img"]{
+	width:100%!important
+	/*width:480px!important*/
+}
+img[class="col4img"]{
+	width:60%!important
+	/*width:480px!important*/
+}
+	
+img[class="col5img"]{
+	width:100%!important
+	/*width:480px!important*/
+}	
+	
+img[class="header"]{
+	width:800px!important
+	/*width:480px!important*/
+}
+
+img[class="headerimg"]{
+	width:100%!important
+	/*width:480px!important*/
+}
+
+img[class="image-banner"]{
+	width:540px!important
+}
+td[class="menu"]{
+	text-align:center!important;padding:0 0 10px 0!important
+}
+td[class="logo"]{
+	padding:0!important;margin:0 auto!important
+}
+img[class="logo"]{
+	padding:0!important;margin:0 auto!important
+}
+
+.div-gradient {
+background-color: #1f4d85;
+}    
+    
+}
+
+@media only screen and (max-width:480px){
+a[href^="tel"],a[href^="sms"]{text-decoration:none;color:#ffffff;pointer-events:none;cursor:default
+}
+.mobile_link a[href^="tel"],.mobile_link a[href^="sms"]{
+	text-decoration:default;color:#ffffff!important;pointer-events:auto;cursor:default
+}
+table[class="devicewidth"]{
+	width:100%!important;text-align:center!important
+	/*width:340px!important;text-align:center!important*/
+}
+table[class="devicewidthinner"]{
+	width:100%!important;text-align:center!important
+}
+/*table[class="devicewidthinner"]{
+	width:320px!important;text-align:center!important
+}*/
+table[class="sthide"]{
+	display:none!important
+}
+img[class="bigimage"]{
+	width:320px!important
+}
+img[class="col1img"]{
+	width:320px!important
+}
+img[class="col2img"]{
+	width:300px!important
+	/*width:300px!important*/
+}
+img[class="col3img"]{
+	width:100%!important
+	/*width:300px!important*/
+}
+img[class="col4img"]{
+	width:100%!important
+	/*width:300px!important*/
+}
+	
+img[class="col5img"]{
+	width:60%!important
+	/*width:300px!important*/
+}	
+	
+img[class="header"]{
+	width:400px!important
+	/*width:480px!important*/
+}
+img[class="image-banner"]{
+	width:340px!important;height:68px!important
+}
+    
+    
+.div-gradient {
+    
+    
+    background: linear-gradient(270deg, rgba(31, 78, 132, 1)50%, rgba(238, 238, 238, 0.8)0%);
+    background: -moz-linear-gradient(270deg, rgba(31, 78, 132, 1)50%, rgba(238, 238, 238, 0.8)0%);
+    background: -webkit-linear-gradient(270deg, rgba(31, 78, 132, 1)50%, rgba(238, 238, 238, 0.8)0%);
+    background: -o-linear-gradient(270deg, rgba(31, 78, 132, 1)50%, rgba(238, 238, 238, 0.8)0%);
+    
+    
+    
+}
+    
+}
+    
+    
+  
+    
+</style>
+    
+
+    
+</head>
+
+<body>
+
+<!-- EMail Start -->
+<div class="block">
+<table border="0" cellpadding="0" cellspacing="0" id="backgroundTable" st-sortable="preheader" width="100%">
+	<tbody>
+		<tr>
+			<td width="100%">
+			<table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="580">
+				<tbody>
+					<tr>
+						<td height="5" width="100%">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align="center" st-content="preheader" style="font-size: 13px;color: #666666" valign="middle">■ 當您無法正常閱讀電子報內容時，<a href="https://www.newsoft.com.tw/epaper/newsoftoa/202404/index.html" target="_blank" class="hlite" style="text-decoration: none; color: #666666">請按這裡</a> ■</td>
+					</tr>
+					<tr>
+						<td height="5" width="100%">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+<!-- EMail End -->
+
+
+
+
+
+
+
+
+    
+    
+<div class="block">
+<table border="0" cellpadding="0" cellspacing="0" id="backgroundTable" st-sortable="header" width="100%">
+	<tbody>
+		<tr>
+			<td>
+			<table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth" hlitebg="edit" shadow="edit" width="1000">
+				<tbody>
+					<tr>
+						<td>
+						<table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth" width="100%">
+							<tbody>
+								<tr>
+								  <td valign="top"><img src="https://www.newsoft.com.tw/epaper/newsoftoa/202404/images/edm_header.jpg" border="0" class="headerimg" alt="NewSoft力新國際"/></td>
+							  </tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>    
+
+	
+<!-- 企業行銷 Start -->	
+<div class="block">
+<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" id="backgroundTable" st-sortable="leftimage" width="100%">
+	<tbody>
+		
+		<tr>
+			<td>
+			
+			<!--內容-->
+			<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="devicewidth" modulebg="edit" width="1000">
+				<tbody>
+					<tr>
+					  <td>
+                          
+                          <!--New-->
+                          <table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner" width="100%">
+										<tbody>
+                                            <tr>
+									<td>
+									<table align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner" width="500">
+										<tbody>
+											<tr>
+												<td align="left" valign="top"><a href="https://www.newsoft.com.tw/products/product_page.php?P_Id=50" target="_blank"><img src="https://www.newsoft.com.tw/epaper/newsoftoa/202404/images/edm_02.jpg" border="0" style="display:block; border:none; outline:none; text-decoration:none;" width="100%" alt="日健建設"/></a></td>
+										  </tr>
+										</tbody>
+									</table>
+
+									<table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner" width="500">
+										<tbody>
+											<tr>
+												<td align="left" valign="top"><a href="https://www.newsoft.com.tw/products/product_page.php?P_Id=50" target="_blank"><img src="https://www.newsoft.com.tw/epaper/newsoftoa/202404/images/edm_01.jpg" border="0" style="display:block; border:none; outline:none; text-decoration:none;" width="100%" alt="惇陽工程"/></a></td>
+										  </tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								</tbody>
+									</table>
+                          <!--New End-->
+                          
+                          
+                          
+                          
+                          </td>
+				  </tr>
+				</tbody>
+			</table>
+			<!--內容-->
+				
+				
+				
+		  </td>
+		</tr>
+	</tbody>
+</table>
+</div>	
+	
+	
+	
+<!-- 考勤 Start-->	
+<div class="block">
+<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" id="backgroundTable" st-sortable="leftimage" width="100%">
+	<tbody>
+		
+		<tr>
+			<td>
+			
+			<!--內容-->
+			<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="devicewidth" modulebg="edit" width="1000">
+				<tbody>
+					<tr>
+					  <td>
+                          
+                          <!--New-->
+                          <table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner" width="100%">
+										<tbody>
+                                            <tr>
+									<td>
+									<table align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner" width="500">
+										<tbody>
+											<tr>
+												<td align="left" valign="top"><a href="https://www.newsoft.com.tw/products/product_page.php?P_Id=52" target="_blank"><img src="https://www.newsoft.com.tw/epaper/newsoftoa/202404/images/edm_06.jpg" border="0" style="display:block; border:none; outline:none; text-decoration:none;" width="100%" alt="專業考勤系統"/></a></td>
+										  </tr>
+										</tbody>
+									</table>
+
+									<table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner" width="500">
+										<tbody>
+											<tr>
+												<td align="left" valign="top"><a href="https://www.newsoft.com.tw/products/product_page.php?P_Id=52" target="_blank"><img src="https://www.newsoft.com.tw/epaper/newsoftoa/202404/images/edm_05.jpg" border="0" style="display:block; border:none; outline:none; text-decoration:none;" width="100%" alt="專業考勤系統"/></a></td>
+										  </tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								</tbody>
+									</table>
+                          <!--New End-->
+                          
+                          
+                          
+                          
+                          </td>
+				  </tr>
+				</tbody>
+			</table>
+			<!--內容-->
+				
+				
+				
+		  </td>
+		</tr>
+	</tbody>
+</table>
+</div>		
+<!-- 考勤 End-->	
+	
+	
+	
+<div class="block">
+<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" id="backgroundTable" st-sortable="leftimage" width="100%">
+	<tbody>
+		
+		<tr>
+			<td>
+			
+			<!--內容-->
+			<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="devicewidth" modulebg="edit" width="1000">
+				<tbody>
+					<tr>
+					  <td>
+                          
+                          <!--New-->
+                          <table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner" width="100%">
+										<tbody>
+                                            <tr>
+									<td>
+									<table align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner" width="500">
+										<tbody>
+											<tr>
+												<td align="left"><a href="https://www.newsoft.com.tw/products/product_page.php?P_Id=50" target="_blank"><img src="https://www.newsoft.com.tw/epaper/newsoftoa/202404/images/edm_04.jpg" border="0" style="display:block; border:none; outline:none; text-decoration:none;" width="100%" alt="電子簽核系統"/></a></td>
+										  </tr>
+										</tbody>
+									</table>
+
+									<table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner" width="500">
+										<tbody>
+											<tr>
+												<td align="left"><a href="https://www.newsoft.com.tw/products/product_page.php?P_Id=50" target="_blank"><img src="https://www.newsoft.com.tw/epaper/newsoftoa/202404/images/edm_03.jpg" border="0" style="display:block; border:none; outline:none; text-decoration:none;" width="100%" alt="電子簽核系統"/></a></td>
+										  </tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								</tbody>
+									</table>
+                          <!--New End-->
+                          
+                          
+                          
+                          
+                          </td>
+				  </tr>
+				</tbody>
+			</table>
+			<!--內容-->
+				
+				
+				
+		  </td>
+		</tr>
+	</tbody>
+</table>
+</div>	
+	
+	
+
+
+
+
+<div class="block">
+<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" id="backgroundTable" st-sortable="leftimage" width="100%">
+	<tbody>
+		<tr>
+			<td>
+			<table bgcolor="#133225" align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth" modulebg="edit" width="1000">
+				<tbody>
+					<tr></tr>
+					<tr>
+						<td height="24">&nbsp;</td>
+					</tr>
+                    
+                    <tr>
+									<td align="center"><table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner" width="780">
+							<tbody>
+								<tr>
+									<td>
+                                        
+                                        
+                                    <table align="left" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner" width="800">
+										<tbody>
+
+											<tr>
+											  <td width="100%" height="8px;"></td>
+										  </tr>
+											<tr>
+												<td style="text-align: center;">
+                                                <p style="font-size:20px;color:#FFFFFF;line-height: 30px;">免費試用　專業OA顧問規劃　立即洽詢</p>
+												<p style="font-size:20px;color:#263b72;line-height: 30px;">
+                                                <a href="tel:0277212080" style="color: #ffffff;"> 02-7721-2080</a>&nbsp;&nbsp;<a href="mailto:contactus@newsoft.com.tw" target="_blank" style="color: #ffffff;">contactus@newsoft.com.tw</a>
+												</p>
+											  </td>
+											</tr>
+										</tbody>
+									</table></td>
+								</tr>
+								</tbody>
+						</table></td>
+								</tr>
+					<tr>
+						<td height="24">&nbsp;</td>
+				  </tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+
+
+
+
+<div class="block">
+<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" id="backgroundTable" st-sortable="fullimage" width="100%">
+	<tbody>
+		<tr>
+			<td>
+			<table align="center" bgcolor="#133225" border="0" cellpadding="0" cellspacing="0" class="devicewidth" modulebg="edit" width="1000">
+				<tbody>
+					<tr></tr>
+					<tr>
+						<td>
+						<table bgcolor="#133225" border="0" cellpadding="5" cellspacing="0" width="100%">
+							<tbody>
+								<tr>
+									<td align="center"><table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner" width="780">
+							<tbody>
+								<tr>
+									<td>
+									<table align="right" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner" width="400">
+										<tbody>
+											<tr>
+											  <td align="center">&nbsp;</td>
+											  </tr>
+											<tr>
+												<td st-content="leftimage-paragraph" style="text-align:left;line-height: 24px;border-left-width: 8px; border-left-style: solid; border-left-color: #f4e34b;" width="400"><p style="padding-left: 10px; font-size:15px; color:#ffffff; font-family:Verdana, Geneva, sans-serif; line-height:20px;">114台北市內湖區新湖一路128巷15號6樓<br />TEL:02-7721-2080  ｜  FAX:02-7721-2001</p></td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align="left" border="0" cellpadding="0" cellspacing="0" class="mobilespacing">
+										<tbody>
+											<tr>
+												<td height="15" style="font-size:1px; line-height:1px; mso-line-height-rule: exactly;" width="100%">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+
+									<table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner" width="340">
+										<tbody>
+
+											<tr>
+											  <td width="100%">&nbsp;</td>
+										  </tr>
+											<tr>
+												<td st-content="leftimage-paragraph" style="text-align:left;line-height: 24px;border-left-width: 8px; border-left-style: solid; border-left-color: #f4e34b;">
+												<p style="padding-left: 10px; font-size:15px; color:#ffffff; font-family:Verdana, Geneva, sans-serif; line-height:20px;">力新國際科技股份有限公司<br /><a href="http://goo.gl/SASLf4" target="_blank" class="link" style="color:#ffffff;">www.newsoft.com.tw</a></p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								</tbody>
+						</table></td>
+								</tr>
+								<tr>
+									<td align="center" style="font-size:10px; color:#ffffff; font-family:Verdana, Geneva, sans-serif; line-height:20px;" valign="middle">Copyright &copy; 2024 力新國際科技股份有限公司 版權所有，禁止侵害，違者必究。</td>
+								</tr>
+								<tr>
+								  <td>&nbsp;</td>
+							  </tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+</body>
+</html>
